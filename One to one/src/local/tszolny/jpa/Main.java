@@ -1,0 +1,38 @@
+package local.tszolny.jpa;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import local.tszolny.jpa.domain.Address;
+import local.tszolny.jpa.domain.Employee;
+
+public class Main {
+
+	public static void main(String[] args) {
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("myDatabase");
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+		
+		Employee employee = new Employee();
+		Address address = new Address();
+		
+		employee.setFirstName("Józef");
+		employee.setLastName("Brzêczek");
+		employee.setSalary(1234.5);
+		employee.setAddress(address);
+		
+		address.setLocality("Namys³ów");
+		address.setZipCode("45-543");
+		address.setStreet("Klonowa");
+		address.setStreetNumber(54);
+		
+		entityManager.getTransaction().begin();
+		entityManager.persist(employee);
+		entityManager.persist(address);
+		entityManager.getTransaction().commit();
+		
+		entityManager.close();
+		entityManagerFactory.close();
+	}
+
+}
