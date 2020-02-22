@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;local.tszolny.jpa.domain.Eployee&apos; to &apos;Employee&apos;&#x0D;&#x0A;- Original project: &apos;One to one&apos;&#x0D;&#x0A;- Original element: &apos;local.tszolny.jpa.domain.Eployee&apos;&#x0D;&#x0A;- Renamed element: &apos;local.tszolny.jpa.domain.Employee&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Eployee&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;local.tszolny.jpa.domain{Eployee.java[Eployee" matchStrategy="1" name="Employee" qualified="false" references="true" similarDeclarations="false" stamp="1581843741141" textual="false" version="1.0"/>
+</session>

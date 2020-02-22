@@ -1,0 +1,10 @@
+package local.tszolny.jpa;
+
+public class FindAndModify {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

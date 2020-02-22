@@ -1,0 +1,2 @@
+1581683704202	Extract local variable 'entityManagerFactory'
+1581683749953	Extract local variable 'createEntityManager'

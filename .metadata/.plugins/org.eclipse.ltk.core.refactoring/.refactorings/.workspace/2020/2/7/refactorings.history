@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;My First Entity 2&apos; to &apos;My First JPA Project 2&apos;" description="Rename resource &apos;My First Entity 2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/My First Entity 2" name="My First JPA Project 2" stamp="1581699915455" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;My First JPA Project&apos;" deleteContents="true" description="Delete resource &apos;My First JPA Project&apos;" element1="/My First JPA Project" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1581700207463"/>
+</session>

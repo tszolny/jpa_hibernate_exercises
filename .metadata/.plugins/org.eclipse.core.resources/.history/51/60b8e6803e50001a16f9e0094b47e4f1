@@ -1,0 +1,9 @@
+package local.tszolny.jpa.domain;
+
+public class Address {
+	private String locality;
+	private String zipCode;
+	private String street;
+	private int streetNumber;
+
+}
